@@ -105,7 +105,7 @@ Para que dimensionen el poder de este operador, si se quiere buscar un elemento 
 lista5 = [1, 2, 3, 4, 5]
 bandera : bool = False
 for n in lista5:
-  if n == 5 : bandera = true
+  if n == 5 : bandera = True
 print(bandera)
 ```
 
