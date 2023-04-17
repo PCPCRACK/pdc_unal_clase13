@@ -77,10 +77,10 @@ Utilizando en operador *[index]* se accede a los elementos de la lista. En pytho
 **Ejemplo 5:** Indexación
 ```python
 lista5 = [1, 2, 3, 4, 5]
-print(lista[0]) # Imprime 1
-print(lista[3]) # Imprime 4
-print(lista[-1]) # Imprime 5
-print(lista[-2]) # Imprime 4
+print(lista5[0]) # Imprime 1
+print(lista5[3]) # Imprime 4
+print(lista5[-1]) # Imprime 5
+print(lista5[-2]) # Imprime 4
 ```
 
 **Ejemplo 6:** Problemas con la Indexación
