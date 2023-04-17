@@ -150,8 +150,8 @@ print(listaCubos)
 ```
 
 ```python
-listaCubos = [(lambda x : x**3) for x in range(3,7)]
-print(listaCubos) 
+listaCubos = [(lambda x : x**3)(x) for x in range(3,7)]
+print(listaCubos)  
 ```
 
 ```python
@@ -161,8 +161,8 @@ print(listaCubos)
 
 ```python
 listaCubos = list(range(3,7)) # Dolor
-for i in range(3,7):
-	listaCubos[i] = listaCubos[i]**3
+for i in range(0,len(listaCubos)):
+  listaCubos[i] = listaCubos[i]**3
 print(listaCubos) 
 ```
 
