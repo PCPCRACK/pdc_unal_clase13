@@ -119,13 +119,13 @@ Es la manera más práctica, en lo técnico, *Phyton* crea una ennumeración y s
 ```python
 lista5 = [1, 2, 3, 4, 5]
 for i in lista5:
-	print(i) 
+  print(i) 
 ```
 
 ```python
 lista5 = [1, 2, 3, 4, 5]
 for i in range(0,len(lista5)):
-	print(lista5[i]) 
+  print(lista5[i]) 
 ```
 
 #### the while approach
@@ -135,8 +135,8 @@ Para recorrer una lista se debe utilizar la indexación y un indice con actualiz
 ```python
 lista5 = [1, 2, 3, 4, 5]
 i : int = 0
-while i < len(lista5)
-	print(lista5[i]) 
+while i < len(lista5):
+  print(lista5[i]) 
 ```
 
 ### List comprenhension (estaba dificil de traducir)
