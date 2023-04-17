@@ -86,7 +86,7 @@ print(lista5[-2]) # Imprime 4
 **Ejemplo 6:** Problemas con la Indexación
 ```python
 lista5 = [1, 2, 3, 4, 5]
-print(lista[5]) # IndexError list index out of range
+print(lista5[5]) # IndexError list index out of range
 ```
 
 El *slicing* es quizá la operación mas poderosa de listas y tuplas en python. No creo poder explicarlo mejor de lo que está en este [post](https://stackoverflow.com/questions/509211/understanding-slicing) de *stackoverflow*.
