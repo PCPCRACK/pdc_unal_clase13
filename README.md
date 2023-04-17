@@ -136,7 +136,8 @@ Para recorrer una lista se debe utilizar la indexación y un indice con actualiz
 lista5 = [1, 2, 3, 4, 5]
 i : int = 0
 while i < len(lista5):
-  print(lista5[i]) 
+  print(lista5[i])
+  i += 1
 ```
 
 ### List comprenhension (estaba dificil de traducir)
